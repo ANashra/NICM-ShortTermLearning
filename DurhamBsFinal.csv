@@ -1,0 +1,103 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),Finished,RecordedDate,ResponseId,RecipientLastName,RecipientFirstName,RecipientEmail,ExternalReference,LocationLatitude,LocationLongitude,DistributionChannel,UserLanguage,Page1,Q_Country,Q_Ethnicity,Q_Genres,Q_GenreOther,Q_Age,Q_Musicianship,Baseline_Teental,Baseline_Rupak,Base_Teental_sd1_1,Base_Teental_Complex_1,Base_Teental_sp1_1,Base_Teental_Basic_1,Base_Teental_Naturl_1,Teental Tutorial,1. Dadra,5. Keherva,4. Jhaptal,2. Deepchandi,3. TeentalComplex,Testing_Teental,Test_Teental_sd1_1,Test_Teental_Complex_1,Test_Teental_sp1_1,Test_Teental_Basic_1,Test_Teental_Naturl_1,Test_Teental_Naturll_1,Base_Rupak_sd1_1,Base_Rupak_Complex_1,Base_Rupak_sp1_1,Base_Rupak_Basic_1,Base_Rupak_Naturl_1,Rupak_Tutorial,1. Dadra,3. Rupak Complex,5. Keherva,4.Jhaptal,2. Deepchandi,Testing_Rupak,Test_Rupak_sd1_1,Test_Rupak_Complex_1,Test_Rupak_sp1_1,Test_Rupak_Basic_1,Test_Rupak_Naturl_1,Test_Rupak_Naturl2_1,SC0,SC1,Score,Score1.2,Score 1.3,Score 1.4,Score2,Score2.2,Score2.3,Score2.4
+Start Date,End Date,Response Type,IP Address,Progress,Duration (in seconds),Finished,Recorded Date,Response ID,Recipient Last Name,Recipient First Name,Recipient Email,External Data Reference,Location Latitude,Location Longitude,Distribution Channel,User Language,"Study Title: Learning long patterns of North Indian classical rhythms  
+
+Researchers: Miss Nashra Ahmad, Dr Martin Clayton, Dr Tuomas Eerola  
+
+Contact email: nashra.ahmad@durham.ac.uk  
+
+ 
+
+The experiment should take 5-10 minutes of your time. You may discontinue and quit the experiment anytime during the investigation. Please ensure you are in a comfortable environment and can listen to the sounds clearly.  
+
+ 
+
+What is this study about?  
+
+This experiment is being conducted to understand how people learn and understand Indian rhythms.  
+
+What will this study involve?  
+
+The study will take place completely online. It will involve listening to some sound files and answering some simple questions. It will take 5-10 minutes of your time.  
+
+The experiment is divided into three parts:  
+
+In the first part, you will listen to one Indian rhythm and be asked to rate some other patterns according to how similar you think they are to the first one you heard.  
+
+In the second part, you will watch a video explaining one Indian rhythm to familiarize yourself with that pattern. You can take as much time as you want and will move to the next part of the experiment after recognizing the pattern correctly a few times.    
+
+In the last part of the experiment, which follows the same format as the first part, you will again be asked to rate the similarity of various rhythms to a reference pattern.  
+
+How will the data be used and stored?  
+
+The data will be used for the PhD thesis of the researcher (Nashra Ahmad). The results from the data will be presented at conferences and potentially published in journals. The analysis will be completely anonymized, and your name will not be reported anywhere.  
+
+The data will be securely stored in a password-protected online drive, shared only among the researchers.    
+
+What if you change your mind about your participation?  
+
+You can withdraw your participation anytime while doing the experiment. Incomplete data will be discarded and deleted. As the data is not linked to your name or identity, you will not be able to withdraw your data after participation, as the researchers can no longer identify which data set is yours.  
+
+Who can I contact if I have questions or concerns?  
+
+You can contact the PhD candidate and experimenter Nashra Ahmad (nashra.ahmad@durham.ac.uk) for any further questions. 
+
+  
+
+Consent Statements: 
+
+1. I confirm that I have read and understand the above information about the project  
+
+2. I understand that my participation is voluntary and that I am free to withdraw at any time without giving any reason  
+
+4. I agree to take part in the above project  
+
+5. I have been informed about how the data will be used and stored 
+
+  
+
+I confirm that I have read and understood all the above information:",List of Countries,What best describe your ethnic group? (Example: Asian- Indian),Select the genres of music you listen to?,Can you state the other genres?,How old are you today? (Age in Years:),Which title best describes you?,"Listen to this pattern as a cue for the following questions. Remember to keep the volume up so that you can hear the pattern properly.
+
+
+
+
+
+
+Please check the box to proceed after you have heard the pattern properly. You will not get this cue again.","Listen to this pattern as a cue for the following questions. Remember to keep the volume up so that you can hear the pattern properly.
+
+
+
+
+Please check the box to proceed after you have heard the pattern properly. You will not get this cue again.",Base_Teental_sd1,Base_Teental_Complex,Base_Teental_sp1,Base_Teental_Basic,Base_Teental_Naturl,"This is a tutorial video for the Indian Rhythm 'Teen Tal', which has 16 beats. You may watch it as many times as you want. Please note that you cannot come back to watch it if you proceed.",Is this the Teen Tal pattern?,Is this the Teen tal pattern?,Is this the Teen Tal pattern?,Is this the Teen Tal Pattern?,Is this the Teen tal pattern?,"Listen to this pattern as a cue for the following questions. Remember to keep the volume up so that you can hear the pattern properly.
+
+
+
+
+
+
+Please check the box to proceed after you have heard the pattern properly. You will not get this cue again.",Test_Teental_sd1,Test_Teental_Complex,Test_Teental_sp1,Test_Teental_Basic,Test_Teental_Naturl,Test_Teental_Naturll,Base_Rupak_sd1,Base_Rupak_Complex,Base_Rupak_sp1,Base_Rupak_Basic,Base_Rupak_Naturl,"This is a tutorial video for the Indian Rhythm 'Rupak Tal', which has 7 beats. You may watch it as many times as you want. Please note that you cannot come back to watch it if you proceed.",Is this the Rupak Tal pattern?,Is this pattern Rupak Tal?,Is this pattern Rupak tal?,Is this pattern Rupak Tal?,Is this the Rupak Tal Pattern?,"Listen to this pattern as a cue for the following questions. Remember to keep the volume up so that you can hear the pattern properly.
+
+
+
+
+Please check the box to proceed after you have heard the pattern properly. You will not get this cue again.",Test_Rupak_sd1,Test_Rupak_Complex,Test_Rupak_sp1,Test_Rupak_Basic,Test_Rupak_Naturl,Test_Rupak_Naturl2,Practice,Practice2,Score,Score1.2,Score 1.3,Score 1.4,Score2,Score2.2,Score2.3,Score2.4
+"{""ImportId"":""startDate"",""timeZone"":""Europe/London""}","{""ImportId"":""endDate"",""timeZone"":""Europe/London""}","{""ImportId"":""status""}","{""ImportId"":""ipAddress""}","{""ImportId"":""progress""}","{""ImportId"":""duration""}","{""ImportId"":""finished""}","{""ImportId"":""recordedDate"",""timeZone"":""Europe/London""}","{""ImportId"":""_recordId""}","{""ImportId"":""recipientLastName""}","{""ImportId"":""recipientFirstName""}","{""ImportId"":""recipientEmail""}","{""ImportId"":""externalDataReference""}","{""ImportId"":""locationLatitude""}","{""ImportId"":""locationLongitude""}","{""ImportId"":""distributionChannel""}","{""ImportId"":""userLanguage""}","{""ImportId"":""QID2""}","{""ImportId"":""QID15""}","{""ImportId"":""QID17_TEXT""}","{""ImportId"":""QID8""}","{""ImportId"":""QID150_TEXT""}","{""ImportId"":""QID4_TEXT""}","{""ImportId"":""QID149""}","{""ImportId"":""QID1""}","{""ImportId"":""QID114""}","{""ImportId"":""QID116_4""}","{""ImportId"":""QID117_4""}","{""ImportId"":""QID118_4""}","{""ImportId"":""QID119_4""}","{""ImportId"":""QID120_4""}","{""ImportId"":""QID35""}","{""ImportId"":""QID40""}","{""ImportId"":""QID54""}","{""ImportId"":""QID51""}","{""ImportId"":""QID44""}","{""ImportId"":""QID48""}","{""ImportId"":""QID112""}","{""ImportId"":""QID128_4""}","{""ImportId"":""QID129_4""}","{""ImportId"":""QID130_4""}","{""ImportId"":""QID131_4""}","{""ImportId"":""QID132_4""}","{""ImportId"":""QID152_4""}","{""ImportId"":""QID123_1""}","{""ImportId"":""QID124_1""}","{""ImportId"":""QID125_1""}","{""ImportId"":""QID126_1""}","{""ImportId"":""QID127_1""}","{""ImportId"":""QID36""}","{""ImportId"":""QID89""}","{""ImportId"":""QID95""}","{""ImportId"":""QID107""}","{""ImportId"":""QID104""}","{""ImportId"":""QID92""}","{""ImportId"":""QID57""}","{""ImportId"":""QID133_1""}","{""ImportId"":""QID134_1""}","{""ImportId"":""QID135_1""}","{""ImportId"":""QID136_1""}","{""ImportId"":""QID137_1""}","{""ImportId"":""QID153_1""}","{""ImportId"":""SC_9NUXwJ3ANPrX1eC""}","{""ImportId"":""SC_6QjCJ2nrfxnKDiK""}","{""ImportId"":""Score""}","{""ImportId"":""Score1.2""}","{""ImportId"":""Score 1.3""}","{""ImportId"":""Score 1.4""}","{""ImportId"":""Score2""}","{""ImportId"":""Score2.2""}","{""ImportId"":""Score2.3""}","{""ImportId"":""Score2.4""}"
+2023-09-21 02:53:03,2023-09-21 02:53:12,IP Address,122.199.9.14,1,9,False,2023-09-28 02:53:19,R_3QYHjKgJpeHEHj1,,,,,,,qr,EN-GB,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-09-21 02:46:10,2023-09-21 02:54:20,IP Address,120.235.42.100,13,490,False,2023-09-28 02:54:21,R_AKSBI3dGzBTrk1X,,,,,,,qr,EN-GB,Yes,China,Asian,"Jazz ,Pop ",,24,Nonmusician,Continue,,Similar,Very Similar,Very Similar,Extremely Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",Yes,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-09-21 03:33:02,2023-09-21 03:33:15,IP Address,14.155.227.233,1,12,False,2023-09-28 03:33:18,R_24x5N4ZlQsH9cq5,,,,,,,qr,EN-GB,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-09-21 04:12:55,2023-09-21 04:13:06,IP Address,117.136.32.42,1,10,False,2023-09-28 04:13:09,R_9zfYLRr5cByDYbv,,,,,,,qr,EN-GB,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-09-21 07:35:34,2023-09-21 07:45:16,IP Address,183.236.0.92,96,582,False,2023-09-28 07:45:19,R_3JK7wiKuZUtGcPP,,,,,,,qr,EN-GB,Yes,China,Asian-chinese,Others,modern popular music or soft music,22,Music-loving nonmusician,,Continue,,,,,,,,,,,,,,,,,,,Moderately Similar,Slightly Similar,Moderately Similar,Not Similar,Moderately Similar,"I can now count the number of beats, and I am ready to continue.",No,No,Yes,No,No,Continue,,,,,,,0,3,,,,,3,,,
+2023-09-21 10:19:09,2023-09-21 10:24:30,IP Address,45.8.204.54,10,320,False,2023-09-28 10:24:31,R_2QYvRdNR51mwGkT,,,,,,,qr,EN-GB,Yes,China,Asian Chinese,"Rock  ,Pop ,Metal ,Others",hiphop ballad indie music,26,Music-loving nonmusician,Continue,,Moderately Similar,Similar,Moderately Similar,Slightly Similar,Slightly Similar,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-09-24 05:45:07,2023-09-24 05:49:27,IP Address,112.96.173.26,56,259,False,2023-10-01 05:49:29,R_3GCVe5x5t3O0BdX,,,,,,,qr,EN-GB,Yes,China,"Chinese ","Jazz ,Rock  ,Pop ,Metal ",,25,Nonmusician,,Continue,,,,,,,,,,,,,,,,,,,Not Similar,Moderately Similar,Not Similar,Slightly Similar,Similar,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-10-10 19:10:48,2023-10-10 19:22:41,IP Address,90.246.6.116,100,713,True,2023-10-10 19:22:42,R_1LjMGVBrxWNuyXV,,,,,53.8109,-1.637,anonymous,EN-GB,Yes,China,asian,"Jazz ,Pop ,Western Classical ",,24,Professional musician,Continue,,Moderately Similar,Similar,Very Similar,Very Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",No,No,No,No,Yes,Continue,Very Similar,Very Similar,Very Similar,Extremely Similar,Very Similar,Extremely Similar,,,,,,,,,,,,,,,,,,,4,0,4,,,,,,,
+2023-10-11 10:35:23,2023-10-11 10:46:36,IP Address,129.234.0.212,100,672,True,2023-10-11 10:46:37,R_3oGzEIXg7YNdJp9,,,,,54.7699,-1.559,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,Mixed race - Asian(Indian) and white,"Rock  ,Pop ,Western Classical ",,41,Professional musician,,Continue,,,,,,,,,,,,,,,,,,,Not Similar,Slightly Similar,Not Similar,Moderately Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",No,Yes,No,No,No,Continue,Similar,Moderately Similar,Very Similar,Similar,Extremely Similar,Extremely Similar,0,5,,,,,5,,,
+2023-10-14 19:18:06,2023-10-14 19:27:54,IP Address,51.146.203.208,100,587,True,2023-10-14 19:27:55,R_AdEhyNIxitZncAx,,,,,54.9742,-1.615,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,Asian- Chinese,"Pop ,Western Classical ",,22,Semiprofessional musician,,Continue,,,,,,,,,,,,,,,,,,,Moderately Similar,Slightly Similar,Similar,Slightly Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",No,No,No,Yes,No,Continue,Similar,Very Similar,Very Similar,Similar,Very Similar,Extremely Similar,0,3,,,,,3,,,
+2023-10-15 16:35:50,2023-10-15 16:45:32,IP Address,129.234.0.210,100,581,True,2023-10-15 16:45:33,R_1o5azh09ZLbu0dD,,,,,54.7699,-1.559,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,White British,"Jazz ,Rock  ,Pop ,Opera ,Folk ,Reggae ,Latin ,Western Classical ,Others",ok actually I can’t think of any,22,Serious amateur musician,,Continue,,,,,,,,,,,,,,,,,,,Similar,Slightly Similar,Similar,Moderately Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",No,Yes,No,No,No,Continue,Not Similar,Moderately Similar,Similar,Moderately Similar,Extremely Similar,Extremely Similar,0,5,,,,,5,,,
+2023-10-15 01:48:18,2023-10-15 01:55:18,IP Address,192.166.208.11,7,420,False,2023-10-22 01:55:24,R_2Qfwbjtvhb3c2pY,,,,,,,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,British,"Jazz ,Folk ,Western Classical ,Indian Classical ,Other Indian Music",,88,Music-loving nonmusician,Continue,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-10-30 13:22:14,2023-10-30 13:29:34,IP Address,129.234.0.165,100,438,True,2023-10-30 13:29:35,R_1jv4ivmLI9jJMMP,,,,,54.7699,-1.559,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,"British ","Jazz ,Pop ,Opera ",,23,Amateur musician,,Continue,,,,,,,,,,,,,,,,,,,Similar,Not Similar,Moderately Similar,Slightly Similar,Moderately Similar,"I can now count the number of beats, and I am ready to continue.",No,No,No,No,No,Continue,Slightly Similar,Not Similar,Moderately Similar,Slightly Similar,Extremely Similar,Similar,0,4,,,,,4,,,
+2023-10-25 22:37:51,2023-10-25 23:51:59,IP Address,129.234.0.190,3,4448,False,2023-11-01 22:52:05,R_wXmX0LD2JJ6LPxL,,,,,,,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,Asian-China,"Pop ,Folk ",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-10-26 14:33:02,2023-10-26 14:39:22,IP Address,129.234.0.221,49,379,False,2023-11-02 13:39:27,R_2a8BrgOOnL7Ybgm,,,,,,,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,Asian,"Jazz ,Pop ,Opera ,Western Classical ",,32,Professional musician,Continue,,Slightly Similar,Not at all similar,Moderately Similar,Moderately Similar,Slightly Similar,"I can now count the number of beats, and I am ready to continue.",No,No,No,No,No,Continue,,,,,,,,,,,,,,,,,,,,,,,,,3,0,3,,,,,,,
+2023-11-06 15:31:44,2023-11-06 15:40:20,IP Address,86.148.73.1,100,516,True,2023-11-06 15:40:21,R_vDqbNk43sDo55Lj,,,,,54.7699,-1.559,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,White British,"Rock  ,Pop ,Others","Alternative, Hip-Hop, Afrobeats, Rap, R&B",20,Music-loving nonmusician,Continue,,Very Similar,Moderately Similar,Similar,Extremely Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",No,No,No,No,Yes,Continue,Similar,Slightly Similar,Moderately Similar,Extremely Similar,Extremely Similar,Extremely Similar,,,,,,,,,,,,,,,,,,,4,0,4,,,,,,,
+2023-11-06 15:33:42,2023-11-06 15:43:14,IP Address,129.234.0.165,100,571,True,2023-11-06 15:43:14,R_2S2I0qKA25s0ZyJ,,,,,54.7699,-1.559,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,"white european ","Jazz ,Rock  ,Pop ,Opera ,Folk ,Reggae ,Western Classical ",,21,Serious amateur musician,Continue,,Very Similar,Not Similar,Moderately Similar,Slightly Similar,Similar,"I can now count the number of beats, and I am ready to continue.",No,No,No,No,Yes,Continue,Similar,Slightly Similar,Similar,Similar,Similar,Similar,,,,,,,,,,,,,,,,,,,4,0,4,,,,,,,
+2023-10-31 11:11:17,2023-10-31 11:11:24,IP Address,129.234.0.203,1,7,False,2023-11-07 11:11:26,R_1CwhtnXpa1f7ZSr,,,,,,,anonymous,EN-GB,Yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,,,,,,,,
+2023-11-07 12:04:57,2023-11-07 12:18:08,IP Address,50.170.92.38,100,790,True,2023-11-07 12:18:09,R_1IuEF0vfCb2DTk4,,,,,41.3868,-70.535,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,White- Irish,"Jazz ,Pop ,Folk ,Western Classical ,Indian Classical ,Others",americana,21,Semiprofessional musician,,Continue,,,,,,,,,,,,,,,,,,,Similar,Extremely Similar,Similar,Moderately Similar,Extremely Similar,"I can now count the number of beats, and I am ready to continue.",No,Yes,No,No,Yes,Continue,Moderately Similar,Very Similar,Slightly Similar,Similar,Very Similar,Very Similar,0,4,,,,,4,,,
+2023-11-07 13:35:39,2023-11-07 13:42:17,IP Address,2.217.190.178,100,397,True,2023-11-07 13:42:18,R_3iQo823CALdhvVG,,,,,54.9742,-1.615,anonymous,EN-GB,Yes,United Kingdom of Great Britain and Northern Ireland,British,"Rock  ,Metal ,Others",Blues,20,Semiprofessional musician,,Continue,,,,,,,,,,,,,,,,,,,Moderately Similar,Not at all similar,Not Similar,Slightly Similar,Similar,"I can now count the number of beats, and I am ready to continue.",No,Yes,No,No,No,Continue,Slightly Similar,Slightly Similar,Not Similar,Moderately Similar,Similar,Moderately Similar,0,5,,,,,5,,,
