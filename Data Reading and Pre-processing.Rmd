@@ -1,6 +1,6 @@
 ---
 title: "Data Reading and Preprocessing"
-author: "Nashra Ahmad"
+author: "X"
 date: '2024-01-28'
 output: 
   html_document:
@@ -31,11 +31,11 @@ library(stringr)
 Read Western data
 
 ```{r readdata}
-d1<-read.csv('DurhamMusicFinal.csv',skip = 0,header = TRUE)
-d2<-read.csv('DurhamBs1.csv',skip = 0,header = TRUE)
-d3<-read.csv('DurhamBsFinal.csv',skip = 0,header = TRUE)
-d4<-read.csv('DurhamUni.csv',skip = 0,header = TRUE)
-d5<-read.csv('Durham_Final_stretch_December 30, 2023_12.09.csv',skip = 0,header = TRUE)
+d1<-read.csv('MusicFinal.csv',skip = 0,header = TRUE)
+d2<-read.csv('Bs1.csv',skip = 0,header = TRUE)
+d3<-read.csv('BsFinal.csv',skip = 0,header = TRUE)
+d4<-read.csv('Uni.csv',skip = 0,header = TRUE)
+d5<-read.csv('Final_stretch_December 30, 2023_12.09.csv',skip = 0,header = TRUE)
 
 d1<-d1[3:nrow(d1),]# delete two first rows (metadata)
 d2<-d2[3:nrow(d1),]# TE: add this well
