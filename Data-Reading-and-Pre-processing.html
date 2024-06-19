@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Nashra Ahmad" />
+<meta name="author" content="X" />
 
 <meta name="date" content="2024-01-28" />
 
@@ -440,7 +440,7 @@ display: none;
 
 
 <h1 class="title toc-ignore">Data Reading and Preprocessing</h1>
-<h4 class="author">Nashra Ahmad</h4>
+<h4 class="author">X </h4>
 <h4 class="date">2024-01-28</h4>
 
 </div>
@@ -471,11 +471,11 @@ values</a></li>
 <div id="read-data" class="section level2" number="0.2">
 <h2><span class="header-section-number">0.2</span> Read data</h2>
 <p>Read Western data</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>d1<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;DurhamMusicFinal.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>d2<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;DurhamBs1.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>d3<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;DurhamBsFinal.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>d4<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;DurhamUni.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>d5<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;Durham_Final_stretch_December 30, 2023_12.09.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a>d1<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;MusicFinal.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>d2<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;Bs1.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-3"><a href="#cb2-3" tabindex="-1"></a>d3<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;BsFinal.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-4"><a href="#cb2-4" tabindex="-1"></a>d4<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;Uni.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb2-5"><a href="#cb2-5" tabindex="-1"></a>d5<span class="ot">&lt;-</span><span class="fu">read.csv</span>(<span class="st">&#39;Final_stretch_December 30, 2023_12.09.csv&#39;</span>,<span class="at">skip =</span> <span class="dv">0</span>,<span class="at">header =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb2-6"><a href="#cb2-6" tabindex="-1"></a></span>
 <span id="cb2-7"><a href="#cb2-7" tabindex="-1"></a>d1<span class="ot">&lt;-</span>d1[<span class="dv">3</span><span class="sc">:</span><span class="fu">nrow</span>(d1),]<span class="co"># delete two first rows (metadata)</span></span>
 <span id="cb2-8"><a href="#cb2-8" tabindex="-1"></a>d2<span class="ot">&lt;-</span>d2[<span class="dv">3</span><span class="sc">:</span><span class="fu">nrow</span>(d1),]<span class="co"># TE: add this well</span></span>
