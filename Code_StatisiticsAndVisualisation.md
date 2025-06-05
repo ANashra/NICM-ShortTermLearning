@@ -13,10 +13,12 @@ library(dplyr)
 library(ggplot2)
 library(ggforce)
 library(tidyverse)
-library(ggplot2)
 library(stringr)
 library(lme4)
 library(writexl)
+library(ggpubr)
+library(ggthemes)
+library(rstatix)
 ```
 
 ## Read data
@@ -307,6 +309,155 @@ print("All pairwise comparisons for Alteration Type, Familiarity, and Musiciansh
 #summary(pairwise_fam_mus_teental)
 pairwise_summary_Teen <- summary(pairwise_fam_mus_teental)
 ```
+
+Final image with p values observed in pair-wise comparisons
+
+``` r
+dcom_renamed <- dcom %>%
+  #  filter(condition == "Base") %>%
+  mutate(
+    Familiarity = ifelse(Familiarity == "Indian", "Familiar",
+                         ifelse(Familiarity == "Non-Indian", "Unfamiliar", Familiarity)),
+    Groups = factor(paste(Familiarity, Musicianship, sep = "\n")),
+    # Change "Natural" to "Reference" in Alteration_Type levels
+    Alteration_Type = factor(ifelse(Alteration_Type == "Natural", "Reference", as.character(Alteration_Type)), 
+                             levels = c("Reference", "Metrical", "Altered")),
+    pattern = ifelse(pattern == "Rupak", "Rupaktal (NI)", pattern),
+    pattern = ifelse(pattern == "Teental", "Teental (ISO)", pattern),
+    condition = ifelse(condition == "Base", "A. Base Learning Condition",
+                       ifelse(condition == "Test", "B. Test Learning Condition", condition))
+  )
+dim(dcom)
+```
+
+    ## [1] 1325   11
+
+``` r
+dim(dcom_renamed)
+```
+
+    ## [1] 1325   12
+
+``` r
+# Create structure (p values are not correct!)
+stat.test <- dcom_renamed %>%
+  group_by(condition, pattern, Groups) %>%
+  t_test(similarity ~ Alteration_Type, p.adjust.method = "bonferroni") 
+stat.test
+```
+
+    ## # A tibble: 48 × 13
+    ##    condition      pattern Groups .y.   group1 group2    n1    n2 statistic    df
+    ##  * <chr>          <chr>   <fct>  <chr> <chr>  <chr>  <int> <int>     <dbl> <dbl>
+    ##  1 A. Base Learn… Rupakt… "Fami… simi… Refer… Metri…    19    57     2.57   34.9
+    ##  2 A. Base Learn… Rupakt… "Fami… simi… Refer… Alter…    19    19     6.36   35.1
+    ##  3 A. Base Learn… Rupakt… "Fami… simi… Metri… Alter…    57    19     4.90   41.4
+    ##  4 A. Base Learn… Rupakt… "Fami… simi… Refer… Metri…    21    63     3.83   28.0
+    ##  5 A. Base Learn… Rupakt… "Fami… simi… Refer… Alter…    21    21     0.991  37.2
+    ##  6 A. Base Learn… Rupakt… "Fami… simi… Metri… Alter…    63    21    -3.37   34.4
+    ##  7 A. Base Learn… Rupakt… "Unfa… simi… Refer… Metri…    20    60     4.67   29.8
+    ##  8 A. Base Learn… Rupakt… "Unfa… simi… Refer… Alter…    20    20     1.39   34.8
+    ##  9 A. Base Learn… Rupakt… "Unfa… simi… Metri… Alter…    60    20    -3.95   39.5
+    ## 10 A. Base Learn… Rupakt… "Unfa… simi… Refer… Metri…    13    39     3.88   22.8
+    ## # ℹ 38 more rows
+    ## # ℹ 3 more variables: p <dbl>, p.adj <dbl>, p.adj.signif <chr>
+
+``` r
+dim(stat.test)
+```
+
+    ## [1] 48 13
+
+``` r
+# Bar plots with p-values
+stat.test <- stat.test %>%
+  add_xy_position(x = "Groups", fun = "mean_sd", dodge = 0.8)
+# Fix these to reflect lmer analysis
+stat.test$p.adj.signif[1:12]<-c("ns","***","***","**","ns","ns","***","ns","ns","***","ns","ns")
+stat.test$p.adj.signif[13:(12+12)]<-c("***","***","ns","***","ns","ns","***","ns","ns","***","ns","ns")
+stat.test$p.adj.signif[25:(24+12)]<-c("ns","***","***","*","*","ns","**","***","ns","***","ns","ns")
+stat.test$p.adj.signif[37:(36+12)]<-c("ns","ns","ns","***","ns","ns","ns","ns","ns","ns","ns","ns")
+head(dcom_renamed)
+```
+
+    ##          ResponseId Musicianship                   name              value
+    ## 1 R_2WDzA7IgRJPp3JF     Musician     Base_Teental_sd1_1 Moderately Similar
+    ## 2 R_2WDzA7IgRJPp3JF     Musician Base_Teental_Complex_1   Slightly Similar
+    ## 3 R_2WDzA7IgRJPp3JF     Musician     Base_Teental_sp1_1        Not Similar
+    ## 4 R_2WDzA7IgRJPp3JF     Musician   Base_Teental_Basic_1            Similar
+    ## 5 R_2WDzA7IgRJPp3JF     Musician  Base_Teental_Naturl_1  Extremely Similar
+    ## 6 R_2WDzA7IgRJPp3JF     Musician     Test_Teental_sd1_1 Moderately Similar
+    ##                    condition       pattern    type            value_c
+    ## 1 A. Base Learning Condition Teental (ISO)     sd1 Moderately Similar
+    ## 2 A. Base Learning Condition Teental (ISO) Complex   Slightly Similar
+    ## 3 A. Base Learning Condition Teental (ISO)     sp1        Not Similar
+    ## 4 A. Base Learning Condition Teental (ISO)   Basic            Similar
+    ## 5 A. Base Learning Condition Teental (ISO)  Naturl  Extremely Similar
+    ## 6 B. Test Learning Condition Teental (ISO)     sd1 Moderately Similar
+    ##   similarity Familiarity Alteration_Type               Groups
+    ## 1          4  Unfamiliar         Altered Unfamiliar\nMusician
+    ## 2          3  Unfamiliar        Metrical Unfamiliar\nMusician
+    ## 3          2  Unfamiliar        Metrical Unfamiliar\nMusician
+    ## 4          5  Unfamiliar        Metrical Unfamiliar\nMusician
+    ## 5          7  Unfamiliar       Reference Unfamiliar\nMusician
+    ## 6          4  Unfamiliar         Altered Unfamiliar\nMusician
+
+``` r
+# Create a bar plot with error bars (mean +/- sd)
+bp <- ggbarplot(
+  dcom_renamed, x = "Groups", y = "similarity", fill = "Alteration_Type",
+  palette = "Set2", add = "mean_sd",
+  position = position_dodge(0.8),
+  facet.by = c("condition","pattern")
+)
+
+# Ensure x-axis labels appear for all facets
+bp <- bp + ylab("Similarity Rating (M ± SE)")
+bp <- bp + xlab("Participant Groups")
+bp <- bp + theme_clean(base_size = 14)
+bp <- bp + theme(
+  axis.text.x = element_text(angle = 0, vjust = 0.5, hjust = 0.5),
+  strip.background = element_rect(fill = "white"),
+  strip.text = element_text(size = 14, face = "bold"),
+  panel.spacing = unit(1, "lines")
+)
+bp <- bp + scale_fill_brewer(name="Stimuli-Types", palette = "Set2")
+```
+
+    ## Scale for fill is already present.
+    ## Adding another scale for fill, which will replace the existing scale.
+
+``` r
+bp <- bp + scale_y_continuous(breaks = seq(1,7,by=2))
+bp <- bp + coord_cartesian(ylim = c(1, 9.6))
+bp <- bp + theme(
+  legend.position="top",
+  axis.text.x = element_text(angle = 0, hjust = 0.5),
+  # This forces the x-axis text to be shown in all facets
+  strip.placement = "outside"
+)
+
+# Make sure group labels are shown on all facets
+bp <- bp + facet_grid(condition ~ pattern, scales = "free_x", space = "free_x")
+
+bp <- bp + 
+  stat_pvalue_manual(
+    stat.test, label = "p.adj.signif", tip.length = 0.01,
+    hide.ns = FALSE
+  )
+bp
+```
+
+![](Code_StatisiticsAndVisualisation_files/figure-gfm/Final%20image-1.png)<!-- -->
+
+``` r
+# Save the plot
+file_path <- "figure3.png"
+ggsave(filename = file_path, plot = bp, device = "png", dpi = 300, height = 7, width = 11)
+print(paste("Plot saved as", file_path, "with 300 DPI"))
+```
+
+    ## [1] "Plot saved as figure3.png with 300 DPI"
 
 ## Accuracy Scores of IS and NI and Effect of Learning
 
