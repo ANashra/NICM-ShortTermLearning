@@ -452,12 +452,11 @@ bp
 
 ``` r
 # Save the plot
-file_path <- "figure3.png"
-ggsave(filename = file_path, plot = bp, device = "png", dpi = 300, height = 7, width = 11)
-print(paste("Plot saved as", file_path, "with 300 DPI"))
-```
 
-    ## [1] "Plot saved as figure3.png with 300 DPI"
+#file_path <- "figure3.png"
+#ggsave(filename = file_path, plot = bp, device = "png", dpi = 300, height = 7, width = 11)
+#print(paste("Plot saved as", file_path, "with 300 DPI"))
+```
 
 ## Accuracy Scores of IS and NI and Effect of Learning
 
