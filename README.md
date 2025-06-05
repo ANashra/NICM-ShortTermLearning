@@ -1,5 +1,5 @@
 # NICM-ShortTermLearning
-# Rhythmic Perception and Learning Study
+# Rhythmic Perception and Learning for North Indian classical Rhythmic Cycles
 
 This repository contains analysis scripts, audio files, and videos as supplementary materials to support the paper (Under review).
 
