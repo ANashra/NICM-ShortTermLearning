@@ -1,0 +1,12 @@
+Stimuli For the study
+================
+
+## Audio Files explanation
+
+## Audio References
+
+### Teental (16-beat cycle)
+
+| Sample | Description | Audio |
+|:--:|:---|:---|
+| 1 | Reference pattern | <audio controls><source src="https://www.dropbox.com/scl/fi/7v4zveadf8ytkv5sdlzrh/TeentalReference.wav?rlkey=wd97zzvscmfndqapv16nkcptt&st=0s8modrw&dl=1" type="audio/wav"></audio> |
