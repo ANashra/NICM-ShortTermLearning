@@ -327,7 +327,7 @@ NI like Hannon et al. (2012).
 
 ![](Code_StatisiticsAndVisualisation_files/figure-gfm/visualise-1.png)<!-- -->
 
-    ## Saving 10 x 6 in image
+    ## Saving 7 x 5 in image
 
     ## [1] "Plot saved as g_acc2_plot.png with 300 DPI"
 
